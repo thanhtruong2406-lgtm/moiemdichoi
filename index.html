@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fff1f0" />
+    <title>Gửi em bé của anh ♡ | 20.10</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Dancing+Script:wght@500;600;700&family=Quicksand:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="ambient a1"></div>
+    <div class="ambient a2"></div>
+    <div id="hearts" aria-hidden="true"></div>
+    <header class="site-head">
+      <span class="brand">love letter <span>♡</span></span
+      ><span class="date">20 October · For my love</span
+      ><button
+        id="soundBtn"
+        class="sound"
+        type="button"
+        aria-label="Bật hoặc tắt âm thanh"
+      >
+        ♫ <span>Music off</span>
+      </button>
+    </header>
+    <main>
+      <section class="intro" id="intro">
+        <div class="tiny">A LITTLE SURPRISE FOR YOU ✦</div>
+        <h1>Một lá thư nhỏ<br /><em>gửi đến người anh thương.</em></h1>
+        <p>
+          Anh có một buổi hẹn muốn dành tặng em. Em có muốn mở lá thư này không?
+          🌷
+        </p>
+        <button
+          type="button"
+          class="envelope-wrap"
+          id="openLetter"
+          aria-label="Mở lá thư tình"
+        >
+          <div class="envelope">
+            <div class="letter-peek">
+              To: Em bé của anh ♡<br /><small>Happy 20.10</small>
+            </div>
+            <div class="env-back"></div>
+            <div class="env-flap"></div>
+            <div class="env-front"></div>
+            <div class="wax">♡</div>
+          </div></button
+        ><button class="primary intro-button" id="openBtn">
+          Chạm để mở thư <span>↗</span>
+        </button>
+        <div class="hint">P/s: Lá thư này được làm chỉ dành riêng cho em ♡</div>
+      </section>
+      <section
+        class="experience hidden"
+        id="experience"
+        aria-label="Lịch hẹn 20 tháng 10"
+      >
+        <div class="opened-note">YOU ARE MY FAVORITE PERSON ♡</div>
+        <h2>Ngày 20/10 <span>của chúng mình</span></h2>
+        <p class="lede">
+          Một tối thật xinh, một người thật đặc biệt. Anh lên kế hoạch, còn
+          <strong>em được quyền chọn tất cả</strong> nha! 💌
+        </p>
+        <div class="postcard">
+          <div class="postcard-top">
+            <div>
+              <span class="stamp">SPECIAL DELIVERY ✉</span>
+              <h3>Thiệp hẹn hò của em</h3>
+            </div>
+            <span class="postcard-heart">♡</span>
+          </div>
+          <img
+            src="thiep.png"
+            alt="Tấm thiệp lịch trình 20-10 của chúng mình"
+          />
+          <p>
+            Em click vào từng mục phía dưới để chọn những điều em thích nha! ✨
+          </p>
+        </div>
+        <div class="steps">
+          <span>01 <b>chọn món ăn</b></span
+          ><span>02 <b>chọn quán nước</b></span
+          ><span>03 <b>trả lời anh</b></span>
+        </div>
+        <section class="choice-section" id="foodSection">
+          <div class="chapter">
+            <span class="chapter-index">CHAPTER 01 · 18:30</span>
+            <h3>Hôm nay em muốn <em>ăn gì?</em> 🍓</h3>
+            <p>
+              Anh đón em bằng xe máy lúc 18:00. Sau đó hai đứa đi ăn món mà em
+              thích nhất.
+            </p>
+          </div>
+          <div class="option-grid food-grid" id="foodOptions">
+            <button
+              type="button"
+              class="option-card"
+              data-group="food"
+              data-value="Busan (món Hàn)"
+            >
+              <div class="option-image emoji-img bg-korea">🍲</div>
+              <div class="option-info">
+                <span class="tag">KOREAN DATE</span>
+                <h4>Đi ăn Busan</h4>
+                <p>Mình ăn đồ Hàn cùng nhau nha</p>
+              </div>
+              <span class="check">✓</span>
+            </button>
+            <button
+              type="button"
+              class="option-card"
+              data-group="food"
+              data-value="Con Ong (Jollibee)"
+            >
+              <div class="option-image bg-jolli">
+                <div class="jolli-icon">🐝</div>
+                <span>Jollibee</span>
+              </div>
+              <div class="option-info">
+                <span class="tag">CUTE & YUMMY</span>
+                <h4>Con Ong 🐝</h4>
+                <p>Gà rán Jollibee yêu thích</p>
+              </div>
+              <span class="check">✓</span>
+            </button>
+            <button
+              type="button"
+              class="option-card"
+              data-group="food"
+              data-value="Món em đang thèm"
+            >
+              <div class="option-image emoji-img bg-crave">
+                🍜 <span>💕</span>
+              </div>
+              <div class="option-info">
+                <span class="tag">HER CHOICE</span>
+                <h4>Món em đang thèm</h4>
+                <p>Em muốn gì anh chiều nấy</p>
+              </div>
+              <span class="check">✓</span>
+            </button>
+          </div>
+          <label
+            class="custom-label hidden"
+            id="foodCustomLabel"
+            for="foodCustom"
+            >Em đang thèm món gì nè? 💗</label
+          ><input
+            class="custom-input hidden"
+            id="foodCustom"
+            placeholder="Ví dụ: lẩu, mì cay, sushi..."
+            maxlength="120"
+          />
+        </section>
+        <section class="choice-section" id="coffeeSection">
+          <div class="chapter">
+            <span class="chapter-index">CHAPTER 02 · 19:00</span>
+            <h3>Cà phê & <em>1001 tấm ảnh xinh</em> 📸</h3>
+            <p>
+              Anh làm phó nháy riêng cho em. Em chọn góc sống ảo nào cũng được!
+            </p>
+          </div>
+          <div class="option-grid coffee-grid">
+            <button
+              type="button"
+              class="option-card"
+              data-group="coffee"
+              data-value="Mango Brew Cafe"
+            >
+              <div class="option-image photo bg-mango">
+                <img
+                  loading="lazy"
+                  src="cutrencay.jpg"
+                  alt="Mango Brew"
+                /><span class="photo-note">Ảnh minh họa</span>
+              </div>
+              <div class="option-info">
+                <span class="tag">COZY COFFEE</span>
+                <h4>Mango Brew</h4>
+                <p>618/35 Âu Cơ, khu Bảy Hiền, TP.HCM</p>
+              </div>
+              <span class="check">✓</span>
+            </button>
+            <button
+              type="button"
+              class="option-card"
+              data-group="coffee"
+              data-value="Cú Trên Cây Coffee"
+            >
+              <div class="option-image photo">
+                <img
+                  loading="lazy"
+                  src="mango-brew.jpg"
+                  alt="Cú Trên Cây"
+                /><span class="photo-note">Ảnh quán thực tế</span>
+              </div>
+              <div class="option-info">
+                <span class="tag">GARDEN DATE</span>
+                <h4>Cú Trên Cây</h4>
+                <p>262 Ung Văn Khiêm, Bình Thạnh</p>
+              </div>
+              <span class="check">✓</span>
+            </button>
+            <button
+              type="button"
+              class="option-card"
+              data-group="coffee"
+              data-value="Quán em thích"
+            >
+              <div class="option-image emoji-img bg-favorite">
+                📷 <span>🌷</span>
+              </div>
+              <div class="option-info">
+                <span class="tag">YOUR FAVORITE</span>
+                <h4>Quán em thích</h4>
+                <p>Em chọn quán, anh đưa đi</p>
+              </div>
+              <span class="check">✓</span>
+            </button>
+          </div>
+          <label
+            class="custom-label hidden"
+            id="coffeeCustomLabel"
+            for="coffeeCustom"
+            >Quán em thích là quán nào nè? 🌸</label
+          ><input
+            class="custom-input hidden"
+            id="coffeeCustom"
+            placeholder="Tên quán hoặc link Google Maps..."
+            maxlength="300"
+          />
+        </section>
+        <section class="choice-section" id="kissSection">
+          <div class="chapter">
+            <span class="chapter-index">CHAPTER 03 · 22:00</span>
+            <h3>Anh hỏi em <em>một câu nhỏ...</em> 🫣</h3>
+            <p>
+              Đến cuối buổi hẹn, mình có thể đi hun nhau hăm? Chỉ khi em cũng
+              muốn thôi nha ♡
+            </p>
+          </div>
+          <div class="kiss-card">
+            <div class="kiss-illustration">🐻‍❄️💗🐰</div>
+            <div class="kiss-options">
+              <button
+                type="button"
+                class="kiss-btn"
+                data-group="kiss"
+                data-value="Yes - Em đồng ý"
+              >
+                Dạ yes 💘</button
+              ><button
+                type="button"
+                class="kiss-btn"
+                data-group="kiss"
+                data-value="No - Em chưa muốn"
+              >
+                Hôm nay không nha 🌷
+              </button>
+            </div>
+            <p id="kissFeedback" class="kiss-feedback">
+              Dù câu trả lời là gì, anh cũng sẽ tôn trọng em ♡
+            </p>
+          </div>
+        </section>
+        <section class="summary-section">
+          <span class="chapter-index">OUR LITTLE DATE PLAN</span>
+          <h3>Chốt kèo với anh nha! 💌</h3>
+          <p>Nhìn lại lựa chọn của em trước khi gửi cho anh nè.</p>
+          <div class="summary-row">
+            <span>🍜 Ăn tối</span><strong id="summaryFood">Chưa chọn</strong>
+          </div>
+          <div class="summary-row">
+            <span>📸 Cà phê</span><strong id="summaryCoffee">Chưa chọn</strong>
+          </div>
+          <div class="summary-row">
+            <span>💗 Câu trả lời</span
+            ><strong id="summaryKiss">Chưa chọn</strong>
+          </div>
+          <label class="custom-label" for="extraNote"
+            >Em có muốn nhắn gì thêm cho anh không?</label
+          ><textarea
+            class="custom-input"
+            id="extraNote"
+            rows="3"
+            maxlength="500"
+            placeholder="Em muốn anh chuẩn bị thêm điều gì nè..."
+          ></textarea
+          ><button class="primary send" id="submitBtn" type="button">
+            Gửi lựa chọn cho anh <span>💌</span>
+          </button>
+          <p
+            class="form-feedback"
+            id="formFeedback"
+            role="status"
+            aria-live="polite"
+          ></p>
+          <div class="small-print">
+            Anh sẽ nhận được các lựa chọn khi website đã được kết nối hộp thư
+            nhận 💗
+          </div>
+        </section>
+        <footer>
+          made with all my love · for you ♡<br /><small>20.10.2026</small>
+        </footer>
+      </section>
+    </main>
+    <div
+      id="successModal"
+      class="modal hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Gửi thành công"
+    >
+      <div class="modal-panel">
+        <div class="celebrate">💌✨</div>
+        <h3>Anh nhận được rồi!</h3>
+        <p>Hẹn gặp công chúa lúc 18:00 nha. Anh mong đến ngày đó lắm luôn ♡</p>
+        <button class="primary" id="closeModal">Dạaaa 💗</button>
+      </div>
+    </div>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
